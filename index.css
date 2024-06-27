@@ -9,11 +9,11 @@ body {
   margin: 0 auto;
 }
 
-.header-section {
+.header-section, .hero-section {
   background-color: #1f2937;
 }
 
-.header-content {
+.header-content, .header-links, .hero-content {
   display: flex;
 }
 
@@ -23,7 +23,6 @@ body {
 }
 
 .header-links {
-  display: flex;
   gap: 1rem;
   margin-left: auto;
   align-items: center;
@@ -38,24 +37,19 @@ body {
   color: #e5e7eb;
 }
 
-.hero-section {
-  background-color: #1f2937;
+.hero-section, .info-section, .quote-section, .call-to-action-section {
+  padding: 80px 0px;
 }
 
-.hero-content {
+.hero-right, .quote-section-container, .call-to-action-right, .footer-section {
   display: flex;
-  padding: 96px 0px;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-left,
 .hero-right {
   flex: 1;
-}
-
-.hero-right {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .hero-main-text {
@@ -76,10 +70,6 @@ body {
   border-radius: 0.5rem;
   border-style: none;
   font-size: 16px;
-}
-
-.info-section {
-  padding: 96px 0px;
 }
 
 .info-section-content {
@@ -105,25 +95,12 @@ body {
   text-align: center;
 }
 
-.info-section-item-image {
-  height: 200px;
-  width: 200px;
-  background-color: red;
-}
-
 .quote-section {
   background-color: #e5e7eb;
-  padding: 96px 0px;
 }
 
 .quote-section-content {
   max-width: 768px;
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .quote {
@@ -139,10 +116,6 @@ body {
   text-align: right;
 }
 
-.call-to-action-section {
-  padding: 96px 0px;
-}
-
 .call-to-action-box {
   background-color: #3882f6;
   border-radius: 10px;
@@ -156,19 +129,7 @@ body {
 }
 
 .call-to-action-right {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex: 1;
-}
-
-.footer-section {
-  background-color: #1f2937;
-  padding: 32px 0px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #f9faf8;
 }
 
 .call-to-action-sign-up-button {
@@ -179,4 +140,10 @@ body {
   border-style: none;
   font-size: 16px;
   border : 2px solid white;
+}
+
+.footer-section {
+  background-color: #1f2937;
+  padding: 32px 0px;
+  color: #f9faf8;
 }
