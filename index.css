@@ -5,89 +5,178 @@ body {
 }
 
 .wrapper {
-    width: 1400px;
-    margin: 0 auto;
+  width: 1400px;
+  margin: 0 auto;
 }
 
-#header-section {
-    background-color: #1f2937;
-  }
-
-#header-content {
-    display: flex;
+.header-section {
+  background-color: #1f2937;
 }
 
-#header-content > #logo-text {
+.header-content {
+  display: flex;
+}
+
+.header-logo-text {
   font-size: 24px;
   color: #f9faf8;
 }
 
-#header-content > #links {
+.header-links {
   display: flex;
   gap: 1rem;
-  margin-left: auto; 
+  margin-left: auto;
   align-items: center;
 }
 
-#header-content > #links > li {
+.header-links > li {
   list-style-type: none;
 }
 
-#header-content > #links > li > a {
+.header-links > li > a {
   text-decoration: none;
   color: #e5e7eb;
-} 
-
-
-
-
-
-/* #bird-pic {
-  height: auto;
-  width: 35%;
 }
 
-.hero {
-  display: flex;
+.hero-section {
   background-color: #1f2937;
-  padding-bottom: 2rem;
 }
 
-#hero-main-text {
+.hero-content {
+  display: flex;
+  padding: 96px 0px;
+}
+
+.hero-left,
+.hero-right {
+  flex: 1;
+}
+
+.hero-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-main-text {
   font-size: 48px;
   color: #f9faf8;
   font-weight: bolder;
 }
 
-#hero-secondary-text {
+.hero-secondary-text {
   font-size: 18px;
   color: #e5e7eb;
 }
 
-#hero-sign-up-button {
+.hero-sign-up-button {
   background-color: #3882f6;
-  padding: 1rem;
+  padding: 16px 32px;
   color: #f9faf8;
   border-radius: 0.5rem;
+  border-style: none;
+  font-size: 16px;
 }
 
-Check out more in-depth about why this works */
-/* .hero > * {
-  flex: 1;
+.info-section {
+  padding: 96px 0px;
+}
+
+.info-section-content {
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+.info-section-title {
+  font-size: 36px;
+  font-weight: lighter;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.info-section-items-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.info-section-item {
+  width: 200px;
+  text-align: center;
+}
+
+.info-section-item-image {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+  padding: 96px 0px;
+}
+
+.quote-section-content {
+  max-width: 768px;
+}
+
+.container {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
-
-.quote-section {
-    background-color: #E5E7EB;
+.quote {
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  color: #1f2937;
 }
 
-#quote {
-    font-size: 36px;
-    font-weight: light;
-    font-style: italic;
-    color: #1f2937;
-} */
+.quote-author {
+  padding: 48px 0px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.call-to-action-section {
+  padding: 96px 0px;
+}
+
+.call-to-action-box {
+  background-color: #3882f6;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  padding: 32px 112px;
+}
+
+.call-to-action-left {
+  flex: auto;
+}
+
+.call-to-action-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.footer-section {
+  background-color: #1f2937;
+  padding: 32px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f9faf8;
+}
+
+.call-to-action-sign-up-button {
+  background-color: #3882f6;
+  padding: 8px 32px;
+  color: #f9faf8;
+  border-radius: 0.5rem;
+  border-style: none;
+  font-size: 16px;
+  border : 2px solid white;
+}
