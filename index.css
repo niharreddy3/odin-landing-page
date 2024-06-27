@@ -1,0 +1,93 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+#header-section {
+    background-color: #1f2937;
+  }
+
+#header-content {
+    display: flex;
+}
+
+#header-content > #logo-text {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+#header-content > #links {
+  display: flex;
+  gap: 1rem;
+  margin-left: auto; 
+  align-items: center;
+}
+
+#header-content > #links > li {
+  list-style-type: none;
+}
+
+#header-content > #links > li > a {
+  text-decoration: none;
+  color: #e5e7eb;
+} 
+
+
+
+
+
+/* #bird-pic {
+  height: auto;
+  width: 35%;
+}
+
+.hero {
+  display: flex;
+  background-color: #1f2937;
+  padding-bottom: 2rem;
+}
+
+#hero-main-text {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: bolder;
+}
+
+#hero-secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+#hero-sign-up-button {
+  background-color: #3882f6;
+  padding: 1rem;
+  color: #f9faf8;
+  border-radius: 0.5rem;
+}
+
+Check out more in-depth about why this works */
+/* .hero > * {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+#quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+} */
